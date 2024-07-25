@@ -1,0 +1,17 @@
+package br.ufg.inf.backend.StpDourados.model;
+
+public class Especialidade {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String nome;
+	private String descricao;
+
+	public Especialidade() {
+	}
+
+	public Especialidade(String nome, String descricao) {
+		this.nome = nome;
+		this.descricao = descricao;
+	}
+}

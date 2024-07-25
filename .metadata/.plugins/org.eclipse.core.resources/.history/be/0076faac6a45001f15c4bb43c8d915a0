@@ -1,0 +1,23 @@
+package br.ufg.inf.backend.StpDourados.controller;
+
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.ufg.inf.backend.StpDourados.infra.security.TokenService;
+import br.ufg.inf.backend.StpDourados.repository.UserRepository;
+import lombok.RequiredArgsConstructor;
+
+@RestController
+@RequestMapping
+@RequiredArgsConstructor
+public class AuthController {
+	private final UserRepository repository;
+	private final PasswordEncoder passwordEncoder;
+	private final TokenService tokenService;
+	
+	@PostMapping("/login")
+	public RespondeEntity login(@RequestBody)
+	
+
+}

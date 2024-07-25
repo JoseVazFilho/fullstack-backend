@@ -1,0 +1,13 @@
+package br.ufg.inf.backend.StpDourados.exception;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+@ControllerAdvice
+public class RestExceptionHandler extends ResponseEntityExceptionHandler{
+	private ResponseEntity<String> resourceNotFoundHandler(ResourceNotFoundException exception){
+		
+	}
+
+}

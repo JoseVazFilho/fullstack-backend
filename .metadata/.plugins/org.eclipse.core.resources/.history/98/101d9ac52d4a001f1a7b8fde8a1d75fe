@@ -1,0 +1,4 @@
+package br.ufg.inf.backend.StpDourados.repository;
+
+@Repository
+public interface MedicamentoRepository extends JpaRepository<Medicamento, Long> {}

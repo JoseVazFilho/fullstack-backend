@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\User\Documents\pos\fullstack-backend-main\fullstack-backend-main\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2389177973.index
+68292855.index
+3098848623.index
+4076576164.index
+1124136770.index
+3296152972.index
